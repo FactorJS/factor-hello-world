@@ -3,9 +3,9 @@
     Hello World
   </div>
   <div class="my-6 text-center">
-    <ElemButton to="/" btn="primary">Home Page</ElemButton>
+    <ElButton to="/" btn="primary">Home Page</ElButton>
   </div>
 </template>
 <script setup>
-import ElemButton from "@factor/ui/ElemButton.vue";
+import ElButton from "@factor/ui/ElButton.vue";
 </script>

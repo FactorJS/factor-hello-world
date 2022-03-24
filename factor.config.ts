@@ -1,6 +1,7 @@
 export default {
-  appName: "Factor Hello World",
-  appEmail: "hello@example.com",
-  appUrl: "https://www.example.com",
-  appDomain: "example.co",
-}
+  variables: {
+    FACTOR_APP_NAME: "Factor Hello World",
+    FACTOR_APP_EMAIL: "hi@factorjs.org",
+    FACTOR_APP_URL: "https://www.factorjs.org",
+  },
+};

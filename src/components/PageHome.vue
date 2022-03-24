@@ -5,12 +5,12 @@
     </router-link>
     <div class="my-6">See README.md for more information.</div>
     <div class="my-6">
-      <ElemButton to="/alt" btn="primary">Alt Page</ElemButton>
+      <ElButton to="/alt" btn="primary">Alt Page</ElButton>
     </div>
   </div>
 </template>
 <script setup>
-import ElemButton from "@factor/ui/ElemButton.vue";
-import icon from "../../icon.svg";
+import ElButton from "@factor/ui/ElButton.vue";
+import icon from "../../factorjs.svg";
 import { emitEvent, useMeta } from "@factor/api";
 </script>
